@@ -1,5 +1,5 @@
-#À¥ ¼­¹ö(IIS) ¿ªÇÒ ¼³Ä¡
+#ì›¹ ì„œë²„(IIS) ì—­í•  ì„¤ì¹˜
 Install-WindowsFeature -Name Web-Server -IncludeManagementTools
 
-#Default.html ¸¸µé±â
+#Default.html ë§Œë“¤ê¸°
 Set-Content -Path "C:\inetpub\wwwroot\Default.htm" -Value "Running Jarvis built on Copilot from host $($env:computername) !"
