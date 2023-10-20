@@ -1,18 +1,21 @@
 #!/bin/bash
-#wget¼³Ä¡
+#wgetì„¤ì¹˜
 sudo apt install wget
 
-#µð½ºÅ© ÆÄÆ¼¼Ç À¯Æ¿¸®Æ¼ ´Ù¿î·Îµå ¹× ½ÇÇà ±ÇÇÑ º¯°æ
+#ë””ìŠ¤í¬ íŒŒí‹°ì…˜ ìœ í‹¸ë¦¬í‹° ë‹¤ìš´ë¡œë“œ ë° ì‹¤í–‰ ê¶Œí•œ ë³€ê²½
 wget https://raw.githubusercontent.com/steelflea/EasyToLearn-Azure-Portal/main/Chapter10/setup_vm_disks.sh
 sudo chmod 755 setup_vm_disks.sh
 sudo ./setup_vm_disks.sh
 
-#»ùÇÃ ÆÄÀÏ readme.txt ¸¸µé±â
+#ìƒ˜í”Œ íŒŒì¼ readme.txt ë§Œë“¤ê¸°
 cd /datadisks/disk1/
 sudo touch readme.txt
 
-# NGINX ¼³Ä¡
+# íŒ¨í‚¤ì§€ ì†ŒìŠ¤ ì—…ë°ì´íŠ¸
+apt-get -y update
+
+# NGINX ì„¤ì¹˜
 apt-get -y install nginx
 
-# index.html ÆÄÀÏ ¸¸µé±â
+# index.html íŒŒì¼ ë§Œë“¤ê¸°
 echo "Running FRIDAY ENGINE from host $(hostname)" > /var/www/html/index.html
