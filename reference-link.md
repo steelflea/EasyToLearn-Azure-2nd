@@ -1,4 +1,4 @@
-## [처음 배우는 애저 2판판]에서 소개한 기술 문서 링크
+## [처음 배우는 애저 2판]에서 소개한 기술 문서 링크
 #### 2장. Azure 시작하기
 -----------
 > + P36, [Azure의 지리적 경계](https://azure.microsoft.com/ko-kr/explore/global-infrastructure/geographies?wt.mc_id=DT-MVP-4039686)
